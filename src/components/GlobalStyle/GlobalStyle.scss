@@ -5,6 +5,8 @@
     --default-layout-header-height: 60px;
     --default-layout-header-width: 100%;
     --default-layout-sidebar-width: 240px;
+
+    --text-color: rgba(22, 24, 35, 1);
 }
 
 * {
@@ -22,4 +24,18 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+}
+
+input, button, [tabindex] {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a[href] {
+    text-decoration: none;
+    color: var(--text-color);
 }
